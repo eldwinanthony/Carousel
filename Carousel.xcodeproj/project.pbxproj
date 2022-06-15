@@ -13,6 +13,7 @@
 		5C02002F285A4C2300835C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C02002D285A4C2300835C07 /* Main.storyboard */; };
 		5C020031285A4C2500835C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C020030285A4C2500835C07 /* Assets.xcassets */; };
 		5C020034285A4C2500835C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C020032285A4C2500835C07 /* LaunchScreen.storyboard */; };
+		5CEE6BDD285A795E002AE130 /* Nyoba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE6BDC285A795E002AE130 /* Nyoba.swift */; };
 		F0D36CA42D1EB6C8F1D901A2 /* Pods_Carousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBB68278DF814E4CC89253D /* Pods_Carousel.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		5C020030285A4C2500835C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C020033285A4C2500835C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C020035285A4C2500835C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEE6BDC285A795E002AE130 /* Nyoba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nyoba.swift; sourceTree = "<group>"; };
 		9CBB68278DF814E4CC89253D /* Pods_Carousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D0C3E086B1115B6B44C152 /* Pods-Carousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carousel.debug.xcconfig"; path = "Target Support Files/Pods-Carousel/Pods-Carousel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +50,6 @@
 				E7D0C3E086B1115B6B44C152 /* Pods-Carousel.debug.xcconfig */,
 				46D7774B2A8B6DA134256B03 /* Pods-Carousel.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +81,7 @@
 				5C020030285A4C2500835C07 /* Assets.xcassets */,
 				5C020032285A4C2500835C07 /* LaunchScreen.storyboard */,
 				5C020035285A4C2500835C07 /* Info.plist */,
+				5CEE6BDC285A795E002AE130 /* Nyoba.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 				5C02002C285A4C2300835C07 /* ViewController.swift in Sources */,
 				5C020028285A4C2300835C07 /* AppDelegate.swift in Sources */,
 				5C02002A285A4C2300835C07 /* SceneDelegate.swift in Sources */,
+				5CEE6BDD285A795E002AE130 /* Nyoba.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
